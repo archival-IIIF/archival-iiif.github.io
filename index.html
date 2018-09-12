@@ -1,28 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Archival IIIF</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Archival IIIF</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-<div class="container">
-  <h1>Archival IIIF</h1>
 
-  <h2>Components</h2>
+<div id="gradient">
 
-  <ul>
-    <li><a href="https://github.com/archival-IIIF/server">Server</a></li>
-    <li><a href="https://github.com/archival-IIIF/viewer">Viewer</a></li>
-  </ul>
+    <div class="container">
+        <img id="iiif-logo" src="iiif.png"/>
 
-  <img src="https://raw.githubusercontent.com/archival-IIIF/server/master/components.png"/>
 
-  <h2>Admin API</h2>
+        <div id="teaser">Archival IIIF is an open source framework to present born digital archives</div>
 
-  <a href="admin_api.md">Admin API documentation</a>
+        <div id="github-buttons">
+            <a class="btn btn-light" href="https://github.com/archival-IIIF/server" target="_blank">Viewer</a>
+            <a class="btn btn-light" href="https://github.com/archival-IIIF/viewer" target="_blank">Server</a>
+        </div>
+    </div>
+
 </div>
+
+<div id="why">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+
+                <img src="vendor/fa/osi-brands.svg" />
+
+                <h2>Open source</h2>
+
+                <p>Archival IIIF is Open Source and contributed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <img src="vendor/fa/check-circle-solid.svg" />
+
+                <h2>Standards compliant</h2>
+
+                <p>Archival IIIF implements the <a href="https://iiif.io/" target="_blank">International Image Interoperability Framework (IIIF)</a> and can be used a component of an <a href="https://en.wikipedia.org/wiki/Open_Archival_Information_System" target="_blank">Open Archival Information System (OAIS)</a>.</p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <img src="vendor/fa/puzzle-piece-solid.svg" />
+
+                <h2>Flexible</h2>
+
+                <p>Thanks to its flexible service system it is possible to build bridges to external ingest and authentification software. In the core version services for <a href="https://www.archivematica.org/en/" target="_blank">Archivematica</a> and <a href="https://www.docuteam.ch/en/products/it-for-archives/software/" target="_blank">Docuteam Feeder</a> are included.</p>
+            </div>
+
+
+            <div class="col-md-3">
+
+                <img src="vendor/fa/feather-alt-solid.svg" />
+
+                <h2>Lightweight</h2>
+
+                <p>Archival IIIF is designed to be as light as you want - you can pick and choose the features you want to include.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="diagram">
+    <div class="container">
+
+        <img src="https://raw.githubusercontent.com/archival-IIIF/server/master/components.png"/>
+
+    </div>
+</div>
+
+
+</body>
+
 </body>
 </html> 
