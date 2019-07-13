@@ -58,8 +58,11 @@
     text-align: center;
 }
 
-#supporters > img {
+#supporters > a {
     margin: 0 40px;
+}
+
+#supporters > a > img {
     height: 60px;
 }
 
