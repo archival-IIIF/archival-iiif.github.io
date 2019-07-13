@@ -53,6 +53,16 @@
     background-color: #ebf4fb;
 }
 
+#supporters {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#supporters > img {
+    margin: 0 40px;
+    height: 60px;
+}
+
 a {
     color: #348dd9;
 }
