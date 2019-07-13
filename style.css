@@ -18,18 +18,26 @@
     margin-top: 50px;
 }
 
-#github-buttons {
+#buttons {
     margin-top: 40px;
 }
 
-#github-buttons .btn {
-    background-image: url("vendor/fa/github-brands.svg");
+#buttons .btn {
     background-repeat: no-repeat;
     background-size: 30px;
     padding-left: 42px;
     background-position: 4px 2px;
     margin: 0 20px;
 }
+
+.github-button {
+    background-image: url("vendor/fa/github-brands.svg");
+}
+
+.demo-button {
+    background-image: url("vendor/fa/play-circle-solid.svg");
+}
+
 
 .container {
     padding: 30px 0;
